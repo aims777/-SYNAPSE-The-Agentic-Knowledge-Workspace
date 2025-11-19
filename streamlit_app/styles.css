@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Main Content */
+.main .block-container {
+    padding-top: 2rem;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stChatMessage.user {
+    background-color: #e9ecef;
+}
+
+.stChatMessage.assistant {
+    background-color: #f1f3f5;
+}
+
+/* Analytics Card */
+.stExpander {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+
+.stExpander header {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
